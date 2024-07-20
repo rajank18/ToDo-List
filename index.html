@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> ToDo App </title>
+</head>
+
+<body>
+
+    <div>
+        <h2>To Do List by<a href="https://www.instagram.com/whyrajan" > Rajan♡</a></h2>
+    </div>
+
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="bars-icon.svg">
+            <input type="text" placeholder="Add a new task">
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">
+                    All
+                </span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box"></ul>
+
+    </div>
+
+    <div id="quote-of-the-day"></div>
+
+    <div class="music-player">
+        <div>
+            <p>Listen Music🎝</p>
+        </div>
+        <audio controls loop >
+            <source src="ok.mp3">
+        </audio>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
